@@ -1,0 +1,122 @@
+body{
+	background: #ACACA0;
+	background-size: cover;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+header{
+		background-color: rgba(255,255,255,0.2);
+		width: 600px;
+		height: 80px;
+		margin-right: auto;
+		margin-left: auto;
+		border: solid;
+}
+
+h1#title {
+	width: 150px;
+	margin-right: auto;
+	margin-bottom: auto;
+	font-size: 40px;
+	padding-left: 90px;
+	text-decoration: none;
+	color:black;
+
+}
+
+#title a{
+	text-decoration: none;
+	color:black;
+}
+#s_list {
+	font-size: 15px;
+	font-family: arial;
+	width: 400px;
+	margin: auto;
+}
+
+#su_list{
+	width: 400px;
+	margin:auto;
+	text-align: 	center;
+	margin-top: 	30px;	
+}
+#post_summary{
+	width: 400px;
+	margin: auto;
+	border: 2px solid black;
+}
+#submit_summary{
+	width: 400px;
+	margin: auto;
+}
+
+
+form{
+	width: 700px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 5px;
+}
+
+#textfield h2{
+	width: 250px;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 40px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+#textfield p{
+	width: 780px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 8px;
+	font-size: 18px;
+	text-align: center;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 2px;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	background-color: white;
+	padding: 5px;
+}
+
+nav ul{
+	width: 400px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#your_name{
+	width: 150px;
+	margin-right: 10px;
+}
+#name-head{
+	margin-right: 100px;
+}
+
+
+.border-fade {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.border-fade:hover, .border-fade:focus, .border-fade:active {
+  box-shadow: inset 0 0 0 4px #666666, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
